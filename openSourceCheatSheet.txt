@@ -1,0 +1,44 @@
+Created: 11/14/2022
+Updated: 
+
+Useful commands cheat sheet for other languages LC101
+
+"This cheat sheet has information that is relevant for students in LC101 who are starting to navigate bash and GitHub."
+
+
+
+Git commands
+
+When updating the GitHub repository:
+
+git status                      //This is seeing what is and isn't syncd to the online repository
+git add //filename              //This is where you add the files you want to commit and push to the GitHub repository
+git status                      //This is verifying that the files you want to sync and commit are qued up and ready
+git commit -m "Type your required message here"         //This is where you commit the changes but haven't updated the GitHub repository yet
+git push                        //This is when you update the GitHub repository
+
+
+
+1. When you create a repository on your computer and want to upload it to your GitHub account, this is the process to do it.
+First, create a new repository on GitHub and copy the link. 
+In bash, type:
+
+git remote add origin //link to new repository on github
+
+git remote -v               //Check it by:
+
+git push -u origin master   //Next step is to set up an upstream (connect the remote) so you can push without typing "git push origin master" every time:
+
+Now you can type just "git push" when updating the repository on git:
+
+refresh github and make sure your files copied over. 
+
+
+
+2. I deleted a .js file from my computer on accident. I didn't commit the change and the GitHub repository still has the original file on it. I can restore my accidently deleted .js file by using this git command.
+
+git checkout HEAD "this is the name of the file on github"
+
+Check out this link for more ways to recover deleted files and how to restore them.
+
+https://www.git-tower.com/learn/git/faq/restoring-deleted-files
