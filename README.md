@@ -1,4 +1,10 @@
-# Learning
+To execute a bash function this is what you type into terminal
+
+bash bestdayever.sh
+
+If you don't know about .sh files, it's another rabbit hole that's fun to go down
+
+Also, if you want to learn how to create a repository on your local machine, and then upload it to git, this is a step by step. 
 
 create new repository on git hub and copy link
 
