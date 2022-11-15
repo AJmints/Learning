@@ -11,11 +11,11 @@ echo "Good Morning $name!"
 
 sleep 2
 
-echo "The time for domination has come... $name!"
+echo "Say $name, did you know that Tardigrades haven't only survived extreme conditions on Earth. They're the first animals to survive the vacuum (that means no air), radiation blasts, and freezing temperatures of space. In 2007, scientists placed the tiny critters into a satellite and shot them into space!"
 
 sleep 2
 
-echo "Let's do the best we can today, $name!!! Let's fly!"
+echo "Alright, that's enough fun facts for the day. Enjoy yourself $name! Now here is a little update about where we currently are and todays date."
 
 sleep 2
 
